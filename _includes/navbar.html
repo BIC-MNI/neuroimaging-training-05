@@ -14,7 +14,11 @@
         <span class="icon-bar"></span>
       </button>
 
-      {% comment %} Select what logo to display. {% endcomment %}
+      {% comment %} Only display mni logo {% endcomment %}
+      <a href="{{ site.mni_site }}" class="pull-left">
+        <img class="navbar-logo" src="{{ relative_root_path }}{% link /fig/neurorgb.png %}" alt="The MNI logo" />
+      </a>
+      {% comment %}
       {% if site.carpentry == "swc" %}
       <a href="{{ site.swc_site }}" class="pull-left">
         <img class="navbar-logo" src="{{ relative_root_path }}{% link /assets/img/swc-icon-blue.svg %}" alt="Software Carpentry logo" />
@@ -32,6 +36,7 @@
         <img class="navbar-logo" src="{{ relative_root_path }}{% link /assets/img/cp-logo-blue.svg %}" alt="The Carpentries logo" />
       </a>
       {% endif %}
+      {% endcomment %}
 
       {% comment %} Always show link to home page. {% endcomment %}
       <a class="navbar-brand" href="{{ relative_root_path }}{% link index.md %}">Home</a>
@@ -40,8 +45,9 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
 
-	{% comment %} Always show code of conduct. {% endcomment %}
+	{% comment %} Always show code of conduct.
         <li><a href="{{ relative_root_path }}{% link CODE_OF_CONDUCT.md %}">Code of Conduct</a></li>
+        {% endcomment %}
 
         {% if site.kind == "lesson" %}
 	{% comment %} Show setup instructions. {% endcomment %}
