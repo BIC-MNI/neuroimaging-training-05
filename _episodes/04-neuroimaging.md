@@ -3,7 +3,7 @@ title: "Neuroimaging 3"
 teaching: 10
 exercises: 0
 questions:
-- "Key question?"
+- "Lorem ipsum dolor sit amet"
 objectives:
 - "First learning objective. (FIXME)"
 keypoints:
