@@ -3,7 +3,7 @@ title: "Neuroimaging 10"
 teaching: 10
 exercises: 0
 questions:
-- "Key question?"
+- "Consectetur adipiscing elit"
 objectives:
 - "First learning objective. (FIXME)"
 keypoints:
