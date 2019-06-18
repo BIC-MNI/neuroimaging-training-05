@@ -5,7 +5,7 @@ exercises: 0
 questions:
 - "Lorem ipsum dolor sit amet, consectetur adipiscing elit?"
 objectives:
-- "First learning objective. (FIXME)"
+- "Quam lacus suspendisse faucibus interdum posuere."
 keypoints:
 - "First key point. Brief Answer to questions. (FIXME)"
 ---
